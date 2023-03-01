@@ -1,0 +1,31 @@
+Python 2.7.17 (v2.7.17:c2f86d86e6, Oct 19 2019, 21:01:17) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> # exercitiul 1.4
+>>> 
+>>> # 1 mile = 1.61 km
+>>> # timpul este de 43 minute si 30 de secunde
+>>> start = 10 # km
+>>> timp = 43 * 60 + 30 # transformam in secunde
+>>> timp
+2610
+>>> timp = timp / 60.0 # transformam in minute
+>>> timp
+43.5
+>>> timp = timp / 60.0 # transformam in ore
+>>> timp
+0.725
+>>> start = start / 1.61 # transformam din km in mile
+>>> start
+6.211180124223602
+>>> x = timp / start # in cate ore parcurg intr o mila
+>>> x
+0.11672500000000001
+>>> x = x * 60 # in cate minute parcurg intr o mila
+>>> x
+7.003500000000001
+>>> viteza = start / timp # cate mile parcurg intr o ora
+>>> viteza
+8.567144998929106
+>>> print 'Se parcurge o mila in ', x, 'minute', ' cu viteza de ', viteza, 'mile/ora'
+Se parcurge o mila in  7.0035 minute  cu viteza de  8.56714499893 mile/ora
+>>> 

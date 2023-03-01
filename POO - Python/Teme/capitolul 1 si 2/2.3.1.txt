@@ -1,0 +1,10 @@
+Python 2.7.17 (v2.7.17:c2f86d86e6, Oct 19 2019, 21:01:17) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> # exercitiul 2.3 1
+>>> from math import pi
+>>> r = 5
+>>> 4 / 3 * pi * r ** 3 #raspunsul gresit
+392.6990816987241
+>>> 4.0 /3.0 * pi * r ** 3 #raspunsul corect
+523.5987755982989
+>>> 

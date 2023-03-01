@@ -1,0 +1,94 @@
+Python 2.7.17 (v2.7.17:c2f86d86e6, Oct 19 2019, 21:01:17) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #3.4.1
+>>> def do_twice(f):
+        f()
+        f()
+
+        
+>>> def print_spam():
+        print 'spam'
+
+        
+>>> do_twice(print_spam)
+spam
+spam
+>>> 
+>>> #3.4.2
+>>> def do_twice(f,x):
+	f(x)
+	f(x)
+
+	
+>>> def print_spam(s):
+	print s
+
+	
+>>> # deci lui w trebuie sa i se atribuie ori un numar ori in string
+>>> w = 3
+>>> do_twice(print_spam,w)
+3
+3
+>>> w = 'allen'
+>>> do_twice(print_spam,w)
+allen
+allen
+>>> 
+>>> #3.4.3
+>>> s = 'allen'
+>>> def print_twice(s):
+	print s
+	print s
+
+	
+>>> print_twice(s)
+allen
+allen
+>>> 
+>>> #3.4.4
+>>> def do_twice(f,x):
+	f(x)
+	f(x)
+
+	
+>>> def print_twice(s):
+	print s
+	print s
+
+	
+>>> w = 'spam'
+>>> do_twice(print_spam,w)
+spam
+spam
+>>> do_twice(print_twice,w)
+spam
+spam
+spam
+spam
+>>> 
+>>> #3.4.5
+>>> def do_twice(f,x):
+	f(x)
+	f(x)
+
+	
+>>> def print_twice(s):
+	print s
+	print s
+
+	
+>>> def do_four(g,w):
+	do_twice(g,w)
+	do_twice(g,w)
+
+>>> q = 'spam'
+>>> do_four(print_twice,q)
+spam
+spam
+spam
+spam
+spam
+spam
+spam
+spam
+>>> 

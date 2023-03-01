@@ -1,0 +1,29 @@
+Python 2.7.17 (v2.7.17:c2f86d86e6, Oct 19 2019, 21:01:17) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #exercitiul 2.2
+>>> 
+>>> width = 17
+>>> height = 12.0
+>>> delimiter = '.'
+>>> 
+>>> width/2
+8
+>>> type( width / 2 )
+<type 'int'>
+>>> width/2.0
+8.5
+>>> type( width / 2.0 )
+<type 'float'>
+>>> height / 3
+4.0
+>>> type( height / 3 )
+<type 'float'>
+>>> 1 + 2 * 5
+11
+>>> type( 1 + 2 * 5 )
+<type 'int'>
+>>> delimiter * 5
+'.....'
+>>> type( delimiter * 5 )
+<type 'str'>
+>>> 

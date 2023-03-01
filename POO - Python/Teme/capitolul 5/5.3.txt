@@ -1,0 +1,13 @@
+def check_fermat(a, b, c, n):
+	if n > 2 and (a ** n + b ** n == c ** n):
+		print "Holy smokes, Fermat was wrong!"
+	else:
+		print "No, that doesn't work."
+
+def verificare():
+	a = int(input("Scrieti o valoare pentru a: "))
+	b = int(input("Scrieti o valoare pentru b: "))
+	c = int(input("Scrieti o valoare pentru c: "))
+	n = int(input("Scrieti o valoare pentru n: "))
+	return check_fermat(a, b, c, n)
+verificare()

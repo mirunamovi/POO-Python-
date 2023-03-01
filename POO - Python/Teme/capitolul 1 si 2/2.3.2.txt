@@ -1,0 +1,20 @@
+Python 2.7.17 (v2.7.17:c2f86d86e6, Oct 19 2019, 21:01:17) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> # exercitiul 2.3.2
+>>> pretcarte = 24.95 #pret initial din librarie
+>>> reducere = 40.0 / 100 * pretcarte
+>>> reducere
+9.98
+>>> pretcarteredus = pretcarte - reducere
+>>> pretcarteredus
+14.969999999999999
+>>> pretprimacarte = pretcarteredus + 3 #cost transport pt prima carte 3 dolari
+>>> pretprimacarte
+17.97
+>>> pretrestulcartilor = pretcarteredus + 0.75 #cost transport pt a n-a carte 0.75 dolari
+>>> pretrestulcartilor
+15.719999999999999
+>>> prettotal = pretprimacarte + 59 * pretrestulcartilor #pretul total pentru 60 de carti cumparate
+>>> prettotal
+945.4499999999999
+>>> 

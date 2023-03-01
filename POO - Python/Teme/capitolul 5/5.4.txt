@@ -1,0 +1,12 @@
+def is_triangle(a, b, c):
+    if a + b < c or a + c < b or b + c < a:
+        print 'NO'
+    else:
+        print 'YES'
+
+def verificare():
+    a = int(input( "Scrieti o valoare pentru a: "))
+    b = int(input( "Scrieti o valoare pentru b: "))
+    c = int(input( "Scrieti o valoare pentru c: "))
+    return is_triangle (a, b, c)
+verificare()
